@@ -40,8 +40,8 @@ def save_to_docx(analysis, output_path):
     except Exception as e:
         print(f"Error saving DOCX file: {e}")
 
-folder_path = "C:/Users/Spandan/Desktop/paper"
-output_file = "C:/Users/Spandan/Desktop/research_analysis.docx"
+folder_path = "folder_contaning_papers"
+output_file = ".docs_path"
 
 all_analyses = ""
 for filename in os.listdir(folder_path):
